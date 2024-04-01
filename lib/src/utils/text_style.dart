@@ -30,11 +30,33 @@ class TextStyles {
   static TextStyle terminal(BuildContext context) {
     return GoogleFonts.firaCode(
       textStyle: const TextStyle(
+        color: AppColors.blackSystem,
         fontSize: 16,
         fontWeight: FontWeight.w600,
         height: 0,
       ),
-      color: Colors.black,
+    );
+  }
+
+  static TextStyle terminalBlue(BuildContext context) {
+    return GoogleFonts.firaCode(
+      textStyle: const TextStyle(
+        color: AppColors.blueSystem,
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
+        height: 0,
+      ),
+    );
+  }
+
+  static TextStyle terminalGrey(BuildContext context) {
+    return GoogleFonts.firaCode(
+      textStyle: const TextStyle(
+        color: AppColors.greySystem,
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
+        height: 0,
+      ),
     );
   }
 
