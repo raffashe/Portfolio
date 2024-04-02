@@ -52,7 +52,7 @@ class TextStyles {
   static TextStyle terminalGrey(BuildContext context) {
     return GoogleFonts.firaCode(
       textStyle: const TextStyle(
-        color: AppColors.greySystem,
+        color: Color.fromARGB(255, 158, 158, 158),
         fontSize: 16,
         fontWeight: FontWeight.w600,
         height: 0,

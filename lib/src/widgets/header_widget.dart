@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../utils/text_style.dart';
 
 class Header extends StatelessWidget {

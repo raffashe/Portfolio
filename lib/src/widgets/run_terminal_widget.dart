@@ -9,8 +9,6 @@ class RunTerminal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 341,
-      height: 41,
       padding: const EdgeInsets.symmetric(horizontal: 17, vertical: 10),
       decoration: const ShapeDecoration(
         shape: RoundedRectangleBorder(
@@ -23,8 +21,6 @@ class RunTerminal extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(
-            width: 307,
-            height: 21,
             child: Text.rich(
               TextSpan(
                 children: [
@@ -33,11 +29,11 @@ class RunTerminal extends StatelessWidget {
                     style: TextStyles.terminal(context),
                   ),
                   TextSpan(
-                    text: 'raffashe ',
+                    text: 'raffashe',
                     style: TextStyles.terminalBlue(context),
                   ),
                   TextSpan(
-                    text: ' --about ',
+                    text: ' --about',
                     style: TextStyles.terminalGrey(context),
                   ),
                 ],
