@@ -1,16 +1,17 @@
-# portfolio_raffashe
+# Website com Flutter - Portfolio Raffashe
 
-A new Flutter project.
+## Descrição
+Este é o repositório de código-fonte para o website Portfolio Raffashe, desenvolvido usando Flutter. 
 
-## Getting Started
+A ideia do design é que a cada botão clicado, o comportamento seja similar ao de um aplicativo, onde ao clicar em um botão, um comando é executado como no terminal, e a informação correspondente é exibida no console. 
 
-This project is a starting point for a Flutter application.
+## Dependências
+As seguintes dependências são utilizadas neste projeto:
+- **flutter**: SDK para construir aplicativos Flutter.
+- **google_fonts**: Permite o uso de fontes personalizadas do Google no aplicativo.
+- **flutter_svg**: Permite a renderização de imagens SVG no Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Capturas de tela
+![Portfolio Raffashe](https://github.com/raffashe/Portfolio/assets/87053532/b23e53f4-c8d5-4103-8036-cd08f19b1852)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🚧Em desenvolvimento🚧
