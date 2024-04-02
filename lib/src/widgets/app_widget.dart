@@ -23,7 +23,7 @@ class PortfolioRaffashe extends StatelessWidget {
                   image: const AssetImage('assets/images/background.jpg'),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
-                    Colors.white.withOpacity(0.2),
+                    Colors.white.withOpacity(0.1),
                     BlendMode.dstATop,
                   ),
                 ),
@@ -97,7 +97,7 @@ class PortfolioRaffashe extends StatelessWidget {
             const Positioned(left: 225, top: 343, child: RunTerminal()),
             const Positioned(left: 225, top: 439, child: ConsoleWidget()),
             const Positioned(left: 1185, top: 272, child: RaffasheWidget()),
-            const Positioned(left: 1299, top: 852, child: PronomeWidget())
+            const Positioned(left: 1299, top: 800, child: PronomeWidget())
           ],
         ),
       ),

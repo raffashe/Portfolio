@@ -9,7 +9,7 @@ class ButtonStyles {
       borderRadius: BorderRadius.circular(6),
       boxShadow: const [
         BoxShadow(
-          color: AppColors.blackSystem,
+          color: Color.fromARGB(255, 133, 132, 132),
           blurRadius: 6.30,
           offset: Offset(0, 4),
           spreadRadius: 0,

@@ -11,13 +11,13 @@ class RaffasheStyles {
       borderRadius: BorderRadius.circular(31),
       boxShadow: const [
         BoxShadow(
-          color: Color.fromARGB(62, 128, 128, 128),
+          color: Color.fromARGB(61, 190, 190, 190),
           blurRadius: 14,
           offset: Offset(0, 4),
           spreadRadius: 0,
         ),
         BoxShadow(
-          color: Color.fromARGB(62, 126, 126, 126),
+          color: Color.fromARGB(61, 165, 164, 164),
           blurRadius: 16,
           offset: Offset(0, -7),
           spreadRadius: 0,
