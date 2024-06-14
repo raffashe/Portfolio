@@ -11,7 +11,6 @@ As seguintes dependências são utilizadas neste projeto:
 - **google_fonts**: Permite o uso de fontes personalizadas do Google no aplicativo.
 - **flutter_svg**: Permite a renderização de imagens SVG no Flutter.
 
-## Portfolio
-![Portfolio Raffashe](https://github.com/raffashe/Portfolio/assets/87053532/b23e53f4-c8d5-4103-8036-cd08f19b1852)
+
 
 🚧Em desenvolvimento🚧
