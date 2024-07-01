@@ -3,7 +3,6 @@
 ## Descrição
 Este é o repositório de código-fonte para o website Portfolio Raffashe, desenvolvido usando Flutter. 
 
-A ideia do design é que a cada botão clicado, o comportamento seja similar ao de um aplicativo, onde ao clicar em um botão, um comando é executado como no terminal, e a informação correspondente é exibida no console. 
 
 ## Dependências
 As seguintes dependências são utilizadas neste projeto:
