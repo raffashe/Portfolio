@@ -4,7 +4,6 @@ import 'package:portfolio_raffashe/src/widgets/console_widget.dart';
 import 'package:portfolio_raffashe/src/widgets/header_widget.dart';
 import 'package:portfolio_raffashe/src/widgets/image_profile_widget.dart';
 import 'package:portfolio_raffashe/src/widgets/pronome_widget.dart';
-import 'package:portfolio_raffashe/src/widgets/stack_widget.dart';
 
 class PortfolioRaffashe extends StatelessWidget {
   const PortfolioRaffashe({super.key});
@@ -26,6 +25,8 @@ class PortfolioRaffashe extends StatelessWidget {
                 top: 400,
                 child: IconButtonWidget(
                   iconPath: 'assets/icon/insta.svg',
+                  url:
+                      'https://www.instagram.com/raffashe.jpg', // Substitua pelo URL correto
                   onPressed: () {},
                 )),
             Positioned(
@@ -33,6 +34,7 @@ class PortfolioRaffashe extends StatelessWidget {
                 top: 500,
                 child: IconButtonWidget(
                   iconPath: 'assets/icon/linkedin.svg',
+                  url: 'https://www.linkedin.com/in/raffaela-castro-silva/',
                   onPressed: () {},
                 )),
             Positioned(
@@ -40,6 +42,7 @@ class PortfolioRaffashe extends StatelessWidget {
                 top: 600,
                 child: IconButtonWidget(
                   iconPath: 'assets/icon/github.svg',
+                  url: 'https://github.com/raffashe',
                   onPressed: () {},
                 )),
 
