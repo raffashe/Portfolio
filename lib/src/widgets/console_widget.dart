@@ -1,68 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_raffashe/src/utils/console_style.dart';
-
-import '../utils/text_style.dart';
+import '../utils/text_style.dart'; // Certifique-se de que o caminho está correto
+import '../widgets/stack_widget.dart'; // Importe o StackWidget
 
 class ConsoleWidget extends StatelessWidget {
   const ConsoleWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 61),
-      clipBehavior: Clip.antiAlias,
-      decoration: ConsoleStyle.consoleBoxDecoration(),
-      child: SizedBox(
-        width: 778.59,
-        child: Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(
-                text: 'Graduada em ',
-                style: TextStyles.terminal(context),
-              ),
-              TextSpan(
-                text: 'Engenharia da Computação',
-                style: TextStyles.terminalBlue(context),
-              ),
-              TextSpan(
-                text: ', desenvolvedora ',
-                style: TextStyles.terminal(context),
-              ),
-              TextSpan(
-                text: 'pleno ',
-                style: TextStyles.terminalBlue(context),
-              ),
-              TextSpan(
-                text: 'de aplicações com ',
-                style: TextStyles.terminal(context),
-              ),
-              TextSpan(
-                text: 'Flutter. ',
-                style: TextStyles.terminalBlue(context),
-              ),
-              TextSpan(
-                text:
-                    'Minha fascinação pelo motivo por trás das coisas me levou a aprofundar meu estudo na usabilidade do usuário, uma base essencial para minhas criações inovadoras.',
-                style: TextStyles.terminal(context),
-              ),
-              TextSpan(
-                text: 'Atualmente, estou cursando ',
-                style: TextStyles.terminal(context),
-              ),
-              TextSpan(
-                text: 'pós-graduação em neurorrobótica ',
-                style: TextStyles.terminalBlue(context),
-              ),
-              TextSpan(
-                text:
-                    'para trazer soluções inovadoras para a área da saúde. Meu trabalho visa integrar tecnologia e neurociência para desenvolver aplicativos com impacto significativo na qualidade de vida e bem-estar das pessoas.',
-                style: TextStyles.terminal(context),
-              ),
-            ],
+    return SizedBox(
+      width: 623, // Adicione o width aqui se necessário para o SizedBox
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Sou engenheira da computação, atualmente cursando pós-graduação em neuroengenharia. Sou uma profissional entusiasta e criativa na resolução de problemas por meio da programação. \n\nIniciei minha trajetória com Java e Kotlin e, posteriormente, migrei para o desenvolvimento cross-platform utilizando Dart e Flutter, que constituem minha stack atual. Comprometida em me tornar uma profissional completa, continuo estudando para trazer soluções e inovação.',
+            textAlign: TextAlign.justify,
+            style: TextStyles.terminalGrey(context), // Ajuste aqui
           ),
-          textAlign: TextAlign.justify,
-        ),
+          const SizedBox(height: 20), // Espaço entre o texto e o StackWidget
+          const StackWidget(), // Adicione o StackWidget aqui
+        ],
       ),
     );
   }

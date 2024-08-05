@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'src/widgets/app_widget.dart';
+import 'package:portfolio_raffashe/src/ui/ui.dart';
 
 void main() {
   runApp(const MyApp());

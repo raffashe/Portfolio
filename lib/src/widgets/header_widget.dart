@@ -13,12 +13,12 @@ class Header extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'RAFFAELA CASTRO',
+            'Raffaela de Castro',
             style: TextStyles.header(context),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 15),
           Text(
-            'Flutter Developer',
+            'Computer Engineer | Flutter Developer',
             style: TextStyles.subHeader(context),
           ),
         ],
