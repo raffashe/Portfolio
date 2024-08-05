@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import '../utils/text_style.dart';
 
 class Header extends StatelessWidget {
-  const Header({super.key});
+  final TextStyle style;
+
+  const Header({super.key, required this.style});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class Header extends StatelessWidget {
         children: [
           Text(
             'Raffaela de Castro',
-            style: TextStyles.header(context),
+            style: style,
           ),
           const SizedBox(height: 15),
           Text(

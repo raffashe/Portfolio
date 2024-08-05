@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart'; // Corrigido para 'flutter_svg'
-import 'package:url_launcher/url_launcher.dart'; // Importar url_launcher
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class IconButtonWidget extends StatelessWidget {
   final String iconPath;
-  final String url; // Adicione um campo para a URL
-  final VoidCallback onPressed;
+  final String url;
 
   const IconButtonWidget({
     super.key,
     required this.iconPath,
-    required this.url, // Adicione a URL como parâmetro
-    required this.onPressed,
+    required this.url,
   });
 
   Future<void> _launchUrl() async {
@@ -25,29 +23,15 @@ class IconButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.end,
-      children: [
-        Container(
-          width: 30,
-          height: 30,
-          clipBehavior: Clip.antiAlias,
-          decoration: const BoxDecoration(),
-          child: InkWell(
-            onTap: () {
-              _launchUrl(); // Chame _launchUrl em vez de onPressed
-            },
-            child: SvgPicture.asset(
-              iconPath,
-              width: 30,
-              height: 30,
-            ),
-          ),
-        ),
-        const SizedBox(height: 30),
-      ],
+    return InkWell(
+      onTap: () {
+        _launchUrl();
+      },
+      child: SvgPicture.asset(
+        iconPath,
+        width: 30,
+        height: 30,
+      ),
     );
   }
 }

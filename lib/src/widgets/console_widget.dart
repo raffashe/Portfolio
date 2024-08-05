@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../utils/text_style.dart'; // Certifique-se de que o caminho está correto
-import '../widgets/stack_widget.dart'; // Importe o StackWidget
+import '../utils/text_style.dart';
+import '../widgets/stack_widget.dart';
 
 class ConsoleWidget extends StatelessWidget {
   const ConsoleWidget({super.key});
@@ -19,7 +19,7 @@ class ConsoleWidget extends StatelessWidget {
             textAlign: TextAlign.justify,
             style: TextStyles.terminalGrey(context),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 40),
           const StackWidget(),
         ],
       ),

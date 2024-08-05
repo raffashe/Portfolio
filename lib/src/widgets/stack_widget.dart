@@ -28,8 +28,8 @@ class StackWidget extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 15.0),
             child: SvgPicture.asset(
               iconPath,
-              height: 40,
-              width: 40,
+              height: 30,
+              width: 30,
             ),
           );
         }).toList(),
